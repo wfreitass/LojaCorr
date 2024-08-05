@@ -14,6 +14,7 @@ class Categoria extends Model
     protected $fillable = [
         'categoria',
     ];
+    
 
     public function subcategorias(): HasMany
     {
